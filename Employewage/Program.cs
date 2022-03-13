@@ -12,6 +12,7 @@ namespace Employewage
             obj.UC2();
             obj.UC3();  
             obj.UC4();
+            obj.UC5();
         }
     }
 }
