@@ -13,6 +13,8 @@ namespace Employewage
             obj.UC3();  
             obj.UC4();
             obj.UC5();
+            Console.WriteLine("Hello, Welcome to Employeewages problem ");
+           
         }
     }
 }

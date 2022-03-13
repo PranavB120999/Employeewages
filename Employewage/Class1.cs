@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Employewage
 {
-  public class Class1
+    public class Class1
     {
         int totalWorkingHour = 8;
         int wagePerHour = 20;
@@ -14,10 +14,10 @@ namespace Employewage
         int partTimeHour = 4;
         int isFullTime = 1;
         int isPartTime = 2;
-        
+
 
         Random random = new Random();
-        public  void UC1()
+        public void UC1()
         {
             Console.WriteLine("Wlcome to UC_1");
             Random random = new Random();
@@ -36,7 +36,7 @@ namespace Employewage
         public void UC2()
         {
             Console.WriteLine("Wlcome to UC_2");
-            
+
             int num = random.Next(0, 2);
             if (num == 0)
             {
@@ -51,13 +51,13 @@ namespace Employewage
             }
 
         }
-        public  void UC3()
+        public void UC3()
         {
             Console.WriteLine("Wlcome to UC_3");
-           
+
             int partTimeHour = 4;
-            
-            
+
+
             int num = random.Next(0, 3);
             if (num == 0)
             {
@@ -106,7 +106,7 @@ namespace Employewage
             Console.WriteLine("Total wage is: " + totalWage);
 
         }
-        public  void UC5()
+        public void UC5()
         {
             Console.WriteLine("Wlcome to UC_5");
             int isFullTime = 1;
@@ -142,5 +142,10 @@ namespace Employewage
             Console.WriteLine("Total wage is: " + totalWage);
 
         }
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Hello, Welcome to Employeewages problem ");
+            
+        }
     }
-}
+    }
