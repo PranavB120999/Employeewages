@@ -10,6 +10,7 @@ namespace Employewage
             Class1 obj = new Class1();
             obj.UC1();
             obj.UC2();
+            obj.UC3();  
         }
     }
 }

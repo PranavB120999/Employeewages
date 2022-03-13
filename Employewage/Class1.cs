@@ -10,7 +10,8 @@ namespace Employewage
     {
         int totalWorkingHour = 8;
         int wagePerHour = 20;
-        int dailyWage = 0; 
+        int dailyWage = 0;
+        int partTimeHour = 4;
 
         Random random = new Random();
         public  void UC1()
@@ -46,6 +47,33 @@ namespace Employewage
                 Console.WriteLine("Total Daily wage is: " + dailyWage);
             }
 
+        }
+        public  void UC3()
+        {
+            Console.WriteLine("Wlcome to UC_3");
+           
+            int partTimeHour = 4;
+            
+            
+            int num = random.Next(0, 3);
+            if (num == 0)
+            {
+                Console.WriteLine("Empoloyee is Present");
+                dailyWage = totalWorkingHour * wagePerHour;
+                Console.WriteLine("Total Daily wage is: " + dailyWage);
+            }
+            else if (num == 1)
+            {
+                Console.WriteLine("Employee is doing Parttime");
+                dailyWage = partTimeHour * wagePerHour;
+                Console.WriteLine("Total Daily wage is: " + dailyWage);
+            }
+            else
+            {
+                Console.WriteLine("Employee is Absent");
+                Console.WriteLine("Total Daily wage is: " + dailyWage);
+
+            }
         }
     }
 }
